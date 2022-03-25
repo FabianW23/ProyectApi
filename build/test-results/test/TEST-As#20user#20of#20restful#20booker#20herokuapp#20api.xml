@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="As user of restful booker herokuapp api" tests="5" skipped="0" failures="0" errors="0" timestamp="2022-03-25T13:08:23" hostname="DESKTOP-PAI0R6I" time="8.612">
+  <properties/>
+  <testcase name="Create a booking" classname="As user of restful booker herokuapp api" time="4.32"/>
+  <testcase name="Get a booking" classname="As user of restful booker herokuapp api" time="0.918"/>
+  <testcase name="Update booking" classname="As user of restful booker herokuapp api" time="1.264"/>
+  <testcase name="Trying get token with bad credentials" classname="As user of restful booker herokuapp api" time="0.445"/>
+  <testcase name="tryin Update a booking with a bad token" classname="As user of restful booker herokuapp api" time="0.811"/>
+  <system-out><![CDATA[{"firstname":"Jim","lastname":"Brown","totalprice":111,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+{"firstname":"Jorge","lastname":"Brown","totalprice":200,"depositpaid":true,"bookingdates":{"checkin":"2018-01-01","checkout":"2019-01-01"},"additionalneeds":"Breakfast"}
+Forbidden
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
